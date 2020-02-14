@@ -1,3 +1,19 @@
 {
-  "dependencies": {}
+  "name": "victorsferreira.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:victorsferreira/victorsferreira.github.io.git",
+  "author": "Victor <victorferreirait@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "copy-packages": "cp ../redix/dist/*.deb releases",
+    "release": "yarn copy-packages && gulp && git add . && git commit -m \"New app release\" && git push origin master"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-template": "^5.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }
