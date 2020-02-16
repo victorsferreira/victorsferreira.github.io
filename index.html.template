@@ -8,8 +8,9 @@
 </head>
 
 <body>
-    <h2>Redix</h2>
-    <strong>Redix</strong> is available for Ubuntu.
+    <h1>Redix</h1>
+    Available for Ubuntu.
+    <img src="./RedixLogo512x512.png" alt="logo" />
 
     <h3>Releases</h3>
     <ul>
